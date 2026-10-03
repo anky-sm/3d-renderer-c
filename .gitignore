@@ -1,0 +1,17 @@
+cmake-build-*/
+build/
+out/
+
+.idea/
+*.iml
+
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+3drenderer
