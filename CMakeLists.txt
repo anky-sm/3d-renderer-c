@@ -5,3 +5,8 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(3drenderer src/main.c)
 add_compile_options(-Wall)
+
+find_package(SDL2 REQUIRED)
+
+
+target_link_libraries(3drenderer PRIVATE SDL2::SDL2)
